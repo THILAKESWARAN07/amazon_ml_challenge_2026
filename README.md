@@ -1,3 +1,4 @@
+
 # Amazon ML Challenge 2026 — Business Entity Resolution
 
 ## Project Structure Overview
@@ -28,34 +29,35 @@ amazon_ml_challenge_2026/
 │   └── business_entity_resolution/
 │       ├── src/
 │       │   ├── __init__.py
-│       │   ├── config.py                  # Centralized path configuration
-│       │   ├── data_loader.py             # Reusable TSV loader utilities
-│       │   ├── eda.py                     # Phase 1: Exploratory data analysis
-│       │   ├── normalization.py           # Text & entity normalization
-│       │   ├── blocking.py                # Candidate generation
-│       │   ├── features.py                # Pairwise feature engineering
-│       │   ├── model.py                   # Matching classifier architecture
-│       │   ├── train.py                   # Model training workflow
-│       │   ├── predict.py                 # Test inference script
-│       │   ├── evaluate.py                # Macro F0.5 evaluation metric
-│       │   └── pipeline.py                # End-to-end pipeline orchestration
+│       │   ├── config.py
+│       │   ├── data_loader.py
+│       │   ├── eda.py
+│       │   ├── normalization.py
+│       │   ├── blocking.py
+│       │   ├── features.py
+│       │   ├── model.py
+│       │   ├── train.py
+│       │   ├── predict.py
+│       │   ├── evaluate.py
+│       │   └── pipeline.py
 │       │
 │       ├── README.md
 │       └── requirements.txt
 │
 ├── experiments/
-│   ├── notebooks/                         # Exploratory and experimental notebooks
-│   ├── results/                           # Experiment outputs and metric logs
-│   └── logs/                              # Execution logs
+│   ├── notebooks/
+│   ├── results/
+│   └── logs/
 │
-├── models/                                # Trained model artifacts
+├── models/
 │
 ├── output/
-│   ├── matching_results.tsv               # Final submission predictions
-│   └── candidate_pairs.tsv                # Candidate pairs from blocking stage
+│   ├── matching_results.tsv
+│   └── candidate_pairs.tsv
 │
 └── README.md
 ```
 
 ## Current Phase
+
 - **Phase 1 — Dataset EDA**: Project structure initialized with modular stubs.

@@ -1,0 +1,26 @@
+Dataset,Check,Total Rows,Duplicate Count,Duplicate Pct (%)
+train_source1,entity_id,2206821,0,0.0
+train_source1,business_name,2206821,667592,30.2513
+train_source1,business_address,2206821,76215,3.4536
+train_source1,name + address,2206821,0,0.0
+train_source2,entity_id,5034616,0,0.0
+train_source2,business_name,5034616,632606,12.5651
+train_source2,business_address,5034616,528388,10.4951
+train_source2,name + address,5034616,25891,0.5143
+train_source3,entity_id,5285603,0,0.0
+train_source3,business_name,5285603,633982,11.9945
+train_source3,business_address,5285603,476923,9.0231
+train_source3,name + address,5285603,18881,0.3572
+train_ground_truth,source1_entity_id,2206821,0,0.0
+test_source1,entity_id,1732544,0,0.0
+test_source1,business_name,1732544,493677,28.4943
+test_source1,business_address,1732544,55061,3.178
+test_source1,name + address,1732544,0,0.0
+test_source2,entity_id,4887273,0,0.0
+test_source2,business_name,4887273,576187,11.7895
+test_source2,business_address,4887273,533082,10.9076
+test_source2,name + address,4887273,22642,0.4633
+test_source3,entity_id,5082316,0,0.0
+test_source3,business_name,5082316,560329,11.0251
+test_source3,business_address,5082316,489783,9.637
+test_source3,name + address,5082316,16305,0.3208
